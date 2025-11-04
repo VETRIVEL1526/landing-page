@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>  
+  <div class="container">
+    <h2>Book Your Trip</h2>
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your name" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Destination</label>
+      <select required>
+        <option disabled value="">-- Select Destination --</option>
+        <option>Paris Catacombs</option>
+        <option>Highgate Cemetery</option>
+        <option>Greyfriars Kirkyard</option>
+        <option>St. Louis Cemetery</option>
+      </select>
+
+      <label>Travel Date</label>
+      <input type="date"  required>
+
+      <label>Number of Guests</label>
+      <input type="number" min="1" placeholder="1" required>
+
+      <label>Special Requests</label>
+      <textarea placeholder="Any special request?"></textarea>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </div>
+  
+</body>
+</html>
